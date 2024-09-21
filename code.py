@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def get_admittance_matrix_rectangular(n):#def with n being size of matrix hehe
     Y = np.zeros((n, n), dtype=complex)#np is numpy library this part initializes a zero matrix
     print("\nInput the admittance matrix (G + jB) for each element in the format (G B):")
